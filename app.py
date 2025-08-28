@@ -10,4 +10,6 @@ image = Image.open('%3Fscar.webp')
 st.image(image, caption='Oscar De Astora')
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.write('El texto escrito es', texto)
+st.write('El texto escrito es: ', texto)
+
+st.subheader("Ahora usemos 2 columnas")
